@@ -127,7 +127,7 @@ while(k>=0 and k<=2*BZ_boundary):
     k = k+1e7
 
 k = 0
-while(k>=0and k<=2*BZ_boundary):
+while(k>=0 and k<=2*BZ_boundary):
  
     Eigenvalue2 = 0.5*(c0*(k-G1.mag)**2+c0*k**2)+((0.25*(c0*(k-G1.mag)**2-c0*k**2)**2)+(U**2))**(0.5)
     conduction_band.plot(pos=(k,Eigenvalue2))
